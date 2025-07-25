@@ -5,6 +5,7 @@
     "module": "node18",
     "noEmit": true,
     "strict": true,
-    "target": "es2020"
+    "target": "es2020",
+    "types": []
   }
 }
