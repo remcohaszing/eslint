@@ -204,7 +204,6 @@ const disabled = new Set([
   '@typescript-eslint/require-await',
   '@typescript-eslint/strict-boolean-expressions',
   '@typescript-eslint/switch-exhaustiveness-check',
-  '@typescript-eslint/typedef',
 
   // https://github.com/un-ts/eslint-plugin-import-x
   'import-x/default',
@@ -231,6 +230,7 @@ const disabled = new Set([
   'import-x/no-unused-modules',
   'import-x/order',
   'import-x/prefer-default-export',
+  'import-x/prefer-namespace-import',
   'import-x/unambiguous',
 
   // https://github.com/dangreenisrael/eslint-plugin-jest-formatting
@@ -279,6 +279,7 @@ const disabled = new Set([
   'n/no-restricted-import',
   'n/no-restricted-require',
   'n/no-sync',
+  'n/no-top-level-await',
   'n/no-unpublished-import',
   'n/no-unpublished-require',
   'n/no-unsupported-features/es-builtins',
@@ -304,6 +305,7 @@ const disabled = new Set([
   'unicorn/no-abusive-eslint-disable',
   'unicorn/no-anonymous-default-export',
   'unicorn/no-array-callback-reference',
+  'unicorn/no-array-reverse',
   'unicorn/no-await-expression-member',
   'unicorn/no-keyword-prefix',
   'unicorn/no-magic-array-flat-depth',
