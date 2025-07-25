@@ -114,7 +114,7 @@ the patterns from `.gitignore`.
 
 ## Warnings
 
-All ESLint that are turned on will trigger error, not warnings. The notable exceptions is
+All ESLint that are turned on will trigger error, not warnings. The notable exception is
 `@typescript-eslint/no-deprecated`.
 
 This is to allow a smooth migration if a dependency decides to deprecate an API. To turn make
