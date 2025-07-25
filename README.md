@@ -2,8 +2,8 @@
 
 > A strict ESLint configuration
 
-[![build status](https://github.com/remcohaszing/@remcohaszing/eslint/workflows/ci/badge.svg)](https://github.com/remcohaszing/@remcohaszing/eslint/actions)
-[![codecov](https://codecov.io/gh/remcohaszing/@remcohaszing/eslint/branch/main/graph/badge.svg)](https://codecov.io/gh/remcohaszing/@remcohaszing/eslint)
+[![build status](https://github.com/remcohaszing/eslint/workflows/ci/badge.svg)](https://github.com/remcohaszing/eslint/actions)
+[![codecov](https://codecov.io/gh/remcohaszing/eslint/branch/main/graph/badge.svg)](https://codecov.io/gh/remcohaszing/eslint)
 [![npm](https://img.shields.io/npm/v/@remcohaszing/eslint)](https://www.npmjs.com/package/@remcohaszing/eslint)
 [![prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io)
 
