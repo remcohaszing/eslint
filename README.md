@@ -74,9 +74,9 @@ enabled. Unfortunately, this makes ESLint slow. Enabling these rules is recommen
 projects only. To enable this, add the following to `eslint.config.js`:
 
 ```js
-import config, { typechecking } from '@remcohaszing/eslint'
+import { define, typechecking } from '@remcohaszing/eslint'
 
-export default [...config, ...typechecking]
+export default define(typechecking)
 ```
 
 ### Markdown
@@ -96,16 +96,15 @@ Rules can be disabled by adding an extra ESLint configuration item to the config
 example:
 
 ```js
-import config from '@remcohaszing/eslint'
+import { define } from '@remcohaszing/eslint'
 
-export default [
-  ...config,
+export default define([
   {
     rules: {
       'no-console': 'off'
     }
   }
-]
+])
 ```
 
 ## Ignored files
