@@ -1,6 +1,9 @@
-import { type ChangeEvent, type FormEvent, type ReactElement, useCallback, useState } from 'react'
+import type { ChangeEvent, FormEvent, ReactElement } from 'react'
 
-import { type Item } from '../../types.js'
+import type { Item } from '../../types.js'
+
+import { useCallback, useState } from 'react'
+
 import { Button } from '../Button/index.js'
 import { ErrorButton } from '../ErrorButton/index.js'
 import { Input } from '../Input/index.js'

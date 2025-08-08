@@ -1,4 +1,4 @@
-import { type ChangeEventHandler, type ReactElement, type ReactNode } from 'react'
+import type { ChangeEventHandler, ReactElement, ReactNode } from 'react'
 
 interface InputProps {
   /**
