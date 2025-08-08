@@ -1,4 +1,4 @@
-import type { ReactElement } from 'react'
+import type { ReactNode } from 'react'
 
 import type { Item } from '../../types.js'
 
@@ -9,7 +9,7 @@ import { ItemForm } from '../ItemForm/index.js'
 /**
  * Display a list of items.
  */
-export function ItemList(): ReactElement {
+export function ItemList(): ReactNode {
   const [items, setItems] = useState<Item[]>([])
 
   const addItem = useCallback(

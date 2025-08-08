@@ -1,4 +1,4 @@
-import type { ChangeEventHandler, ReactElement, ReactNode } from 'react'
+import type { ChangeEventHandler, ReactNode } from 'react'
 
 interface InputProps {
   /**
@@ -32,7 +32,7 @@ interface InputProps {
 /**
  * Render a Bulma styled input element.
  */
-export function Input({ label, name, ...props }: InputProps): ReactElement {
+export function Input({ label, name, ...props }: InputProps): ReactNode {
   return (
     <div className="field">
       <label className="label" htmlFor={name}>

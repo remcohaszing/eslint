@@ -1,4 +1,4 @@
-import type { ChangeEvent, FormEvent, ReactElement } from 'react'
+import type { ChangeEvent, FormEvent, ReactNode } from 'react'
 
 import type { Item } from '../../types.js'
 
@@ -18,7 +18,7 @@ interface ItemFormProps {
 /**
  * A form for editing an item.
  */
-export function ItemForm({ onSubmit }: ItemFormProps): ReactElement {
+export function ItemForm({ onSubmit }: ItemFormProps): ReactNode {
   const [item, setItem] = useState<Item>({ text: '', link: '' })
 
   const handleChange = useCallback(

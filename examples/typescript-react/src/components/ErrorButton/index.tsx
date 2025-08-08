@@ -1,4 +1,4 @@
-import type { ReactElement, ReactNode } from 'react'
+import type { ReactNode } from 'react'
 
 import { useCallback, useState } from 'react'
 
@@ -7,7 +7,7 @@ import { Button } from '../Button/index.js'
 /**
  * Render a button which, when clicked, cause a render error.
  */
-export function ErrorButton(): ReactElement {
+export function ErrorButton(): ReactNode {
   const [ok, setOk] = useState(true)
 
   const onClick = useCallback(() => {
@@ -16,7 +16,7 @@ export function ErrorButton(): ReactElement {
   }, [])
 
   if (!ok) {
-    return ok as ReactNode as ReactElement
+    return ok
   }
 
   return (
