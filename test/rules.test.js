@@ -215,6 +215,7 @@ const disabled = new Set([
   'import-x/no-cycle',
   'import-x/no-default-export',
   'import-x/no-deprecated',
+  'import-x/no-duplicates',
   'import-x/no-dynamic-require',
   'import-x/no-empty-named-blocks',
   'import-x/no-import-module-exports',
