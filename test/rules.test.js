@@ -211,6 +211,7 @@ const disabled = new Set([
   'import-x/exports-last',
   'import-x/group-exports',
   'import-x/max-dependencies',
+  'import-x/newline-after-import',
   'import-x/no-commonjs',
   'import-x/no-cycle',
   'import-x/no-default-export',
