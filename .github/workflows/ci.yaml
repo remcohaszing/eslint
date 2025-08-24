@@ -59,7 +59,7 @@ jobs:
           registry-url: https://registry.npmjs.org
       - uses: actions/download-artifact@v4
         with: { name: package }
-      - run: npm publish
+      - run: npm publish *.tgz
 
   remark:
     runs-on: ubuntu-latest
