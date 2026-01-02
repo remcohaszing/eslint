@@ -4,7 +4,7 @@
     "checkJs": true,
     "declaration": true,
     "emitDeclarationOnly": true,
-    "module": "node18",
+    "module": "node20",
     "outDir": "types",
     "rootDir": "lib",
     "declarationMap": true,
