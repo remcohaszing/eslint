@@ -100,6 +100,7 @@ const disabled = new Set([
   '@stylistic/curly-newline',
   '@stylistic/dot-location',
   '@stylistic/eol-last',
+  '@stylistic/exp-jsx-props-style',
   '@stylistic/exp-list-style',
   '@stylistic/func-call-spacing',
   '@stylistic/function-call-argument-newline',
@@ -123,7 +124,6 @@ const disabled = new Set([
   '@stylistic/jsx-one-expression-per-line',
   '@stylistic/jsx-pascal-case',
   '@stylistic/jsx-quotes',
-  '@stylistic/jsx-sort-props',
   '@stylistic/jsx-tag-spacing',
   '@stylistic/jsx-wrap-multilines',
   '@stylistic/key-spacing',
@@ -204,6 +204,7 @@ const disabled = new Set([
   '@typescript-eslint/promise-function-async',
   '@typescript-eslint/require-await',
   '@typescript-eslint/strict-boolean-expressions',
+  '@typescript-eslint/strict-void-return',
   '@typescript-eslint/switch-exhaustiveness-check',
 
   // https://github.com/un-ts/eslint-plugin-import-x
@@ -303,6 +304,7 @@ const disabled = new Set([
   'n/prefer-node-protocol',
 
   // https://perfectionist.dev
+  'perfectionist/sort-arrays',
   'perfectionist/sort-decorators',
   'perfectionist/sort-enums',
   'perfectionist/sort-interfaces',
@@ -317,6 +319,7 @@ const disabled = new Set([
   'unicorn/empty-brace-spaces',
   'unicorn/explicit-length-check',
   'unicorn/filename-case',
+  'unicorn/isolated-functions',
   'unicorn/no-abusive-eslint-disable',
   'unicorn/no-anonymous-default-export',
   'unicorn/no-array-callback-reference',
@@ -336,6 +339,7 @@ const disabled = new Set([
   'unicorn/prefer-code-point',
   'unicorn/prefer-module',
   'unicorn/prefer-query-selector',
+  'unicorn/prefer-simple-condition-first',
   'unicorn/prefer-spread',
   'unicorn/prefer-string-raw',
   'unicorn/prefer-switch',
