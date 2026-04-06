@@ -2,7 +2,8 @@
 
 [![build status](https://github.com/remcohaszing/eslint/workflows/ci/badge.svg)](https://github.com/remcohaszing/eslint/actions)
 [![codecov](https://codecov.io/gh/remcohaszing/eslint/branch/main/graph/badge.svg)](https://codecov.io/gh/remcohaszing/eslint)
-[![npm](https://img.shields.io/npm/v/@remcohaszing/eslint)](https://www.npmjs.com/package/@remcohaszing/eslint)
+[![npm version](https://img.shields.io/npm/v/@remcohaszing/eslint)](https://www.npmjs.com/package/@remcohaszing/eslint)
+[![npm downloads](https://img.shields.io/npm/dm/@remcohaszing/eslint)](https://www.npmjs.com/package/@remcohaszing/eslint)
 
 This is a strict shareable ESLint configuration. All ESLint core rules and a variety of ESLint
 plugins have been carefully considered. Overrides are used to apply rules based on context.
