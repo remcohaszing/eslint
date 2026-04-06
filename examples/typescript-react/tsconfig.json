@@ -1,11 +1,12 @@
 {
   "extends": "../../tsconfig",
   "compilerOptions": {
+    "exactOptionalPropertyTypes": true,
     "jsx": "react-jsx",
     "module": "node20",
     "noEmit": true,
-    "strict": true,
     "target": "es2020",
-    "types": []
+    "types": [],
+    "verbatimModuleSyntax": true
   }
 }

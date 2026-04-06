@@ -1,10 +1,11 @@
 {
   "extends": "../../tsconfig",
   "compilerOptions": {
+    "exactOptionalPropertyTypes": true,
     "module": "node20",
     "noEmit": true,
-    "strict": true,
     "target": "es2020",
-    "types": ["node"]
+    "types": ["node"],
+    "verbatimModuleSyntax": true
   }
 }
