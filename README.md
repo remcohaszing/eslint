@@ -126,7 +126,7 @@ eslint
 
 ## Compatibility
 
-This project requires Node.js 22 or greater.
+This project requires Node.js 24 or greater.
 
 ## License
 
