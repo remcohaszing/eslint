@@ -5,7 +5,6 @@
 [![build status](https://github.com/remcohaszing/eslint/workflows/ci/badge.svg)](https://github.com/remcohaszing/eslint/actions)
 [![codecov](https://codecov.io/gh/remcohaszing/eslint/branch/main/graph/badge.svg)](https://codecov.io/gh/remcohaszing/eslint)
 [![npm](https://img.shields.io/npm/v/@remcohaszing/eslint)](https://www.npmjs.com/package/@remcohaszing/eslint)
-[![prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io)
 
 This is a strict shareable ESLint configuration. All ESLint core rules and a variety of ESLint
 plugins have been carefully considered. Overrides are used to apply rules based on context.
@@ -27,39 +26,12 @@ plugins have been carefully considered. Overrides are used to apply rules based 
 Install `@remcohaszing/eslint` using `npm`.
 
 ```sh
-npm install --save-dev \
-  eslint \
-  @remcohaszing/eslint \
-  prettier
+npm install --save-dev @remcohaszing/eslint
 ```
 
 ## Configuration
 
-First [configure Prettier](https://prettier.io/docs/en/configuration.html). For example, create a
-`.editorconfig` with the following content:
-
-```ini
-root = true
-
-[*]
-charset = utf-8
-end_of_line = lf
-indent_size = 2
-indent_style = space
-insert_final_newline = true
-max_line_length = 100
-trim_trailing_whitespace = true
-```
-
-And create a `.prettierrc.yaml` with the following content:
-
-```yaml
-proseWrap: always
-singleQuote: true
-trailingComma: all
-```
-
-Next, create `eslint.config.js` with the following content:
+Create `eslint.config.js` with the following content:
 
 ```js
 export { default } from '@remcohaszing/eslint'
@@ -84,8 +56,6 @@ export default define(typechecking)
 Code blocks in Markdown are linted by default using
 [`@eslint/markdown`](https://github.com/eslint/markdown). The type checking rules from
 `@typescript-eslint/eslint-plugin` don’t work with markdown code blocks.
-
-`prettier/prettier` is disabled, because it doesn’t play nice with `eslint-plugin-markdown`.
 
 Some other rules have been turned off, because these rules may conflict with the purpose of the
 documentation.
