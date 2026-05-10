@@ -324,6 +324,7 @@ const disabled = new Set([
   'unicorn/no-anonymous-default-export',
   'unicorn/no-array-callback-reference',
   'unicorn/no-array-reverse',
+  'unicorn/no-array-sort',
   'unicorn/no-await-expression-member',
   'unicorn/no-keyword-prefix',
   'unicorn/no-magic-array-flat-depth',
