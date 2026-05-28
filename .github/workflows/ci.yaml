@@ -57,9 +57,10 @@ jobs:
         with:
           node-version: 26
           registry-url: https://registry.npmjs.org
+      - run: npm install --global npm@latest
       - uses: actions/download-artifact@v8
         with: { name: package }
-      - run: npm publish *.tgz
+      - run: npm stage publish *.tgz
 
   remark:
     runs-on: ubuntu-latest
