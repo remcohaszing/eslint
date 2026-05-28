@@ -262,6 +262,7 @@ const disabled = new Set([
   'jsdoc/match-description',
   'jsdoc/no-missing-syntax',
   'jsdoc/no-types',
+  'jsdoc/no-undefined-types',
   'jsdoc/require-description-complete-sentence',
   'jsdoc/require-example',
   'jsdoc/require-file-overview',
