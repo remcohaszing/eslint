@@ -1,6 +1,6 @@
 {
   "name": "@remcohaszing/eslint",
-  "version": "14.1.2",
+  "version": "14.1.3",
   "description": "A strict ESLint configuration.",
   "keywords": [
     "eslint",
